@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-sass-starter",
+  "name": "tts-dispatcher",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,5 +24,17 @@
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.7",
     "typescript": "^3.0.3"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genezyc/react-typescript-sass-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genezyc/react-typescript-sass-starter/issues"
+  },
+  "homepage": "https://github.com/genezyc/react-typescript-sass-starter#readme"
 }

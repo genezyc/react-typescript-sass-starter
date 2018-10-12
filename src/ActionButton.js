@@ -2,13 +2,8 @@ import * as React from 'react';
 import { css } from 'emotion';
 import styled from 'react-emotion';
 
-interface IActionButtonProps {
-    key_letter: string;
-    label: string,
-};
-
-class ActionButton extends React.Component< IActionButtonProps, any > {
-    public render() {
+class ActionButton extends React.Component {
+    render() {
         return (
             <div className={action_button}>
                 <IconContainer>
@@ -22,8 +17,8 @@ class ActionButton extends React.Component< IActionButtonProps, any > {
 const action_button = css`
     box-sizing: border-box;
     height: 44px;
-    border: 1px solid blue;
-    width: 200px;
+    border: 1px solid rgba(0,0,0,0.5);
+    max-width: 320px;
     border-radius: 4px;
     cursor: pointer;
     background-color: #f22525;
@@ -61,11 +56,12 @@ const IconContainer = styled('div')`
 
 
 const label = css`
-    border: 1px solid white;
+    // border: 1px solid white;
     line-height: 24px;
     font-size: 20px;
     margin: 8px;
-    height: 24px
+    height: 24px;
+    color: white;
 `;
 
 export default ActionButton;

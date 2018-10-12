@@ -1,10 +1,11 @@
 import * as React from 'react';
 import './css/App.css';
+import DispatchItem from './DispatchItem';
 
 import logo from './logo.svg';
 
 class App extends React.Component {
-  public render() {
+  render() {
     return (
       <div className="App">
         <header className="App-header">
@@ -14,6 +15,7 @@ class App extends React.Component {
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <DispatchItem/>;
       </div>
     );
   }
